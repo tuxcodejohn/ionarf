@@ -10,6 +10,6 @@ AM_INIT_AUTOMAKE([ color-tests \
 AC_PROG_CC
 AM_PROG_CC_C_O
 AC_OUTPUT([
-src/Makefile
+Makefile src/Makefile
 ])
 
