@@ -1,6 +1,9 @@
 SUBDIRS = src
 
 
+README: README.md
+	ln -s README.md README
+
 dist-hook: ChangeLog
 
 ChangeLog: configure.ac
